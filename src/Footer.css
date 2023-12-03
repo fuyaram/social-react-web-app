@@ -1,0 +1,29 @@
+body {
+  margin: 0%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3eded;
+  color: rgb(5, 5, 5);
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden; /* Add overflow property to handle small screens */
+}
+
+.menu-icon1 {
+  margin-right: 14px;
+}
+
+.footer a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  color: rgb(5, 5, 5);
+}
+

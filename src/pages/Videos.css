@@ -1,0 +1,30 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gallery-item {
+    flex: 0 1 calc(33.33% - 20px); /* Adjust the percentage as per your design */
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item {
+      flex: 0 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-item {
+      flex: 0 1 calc(100% - 20px);
+    }
+  }
+  

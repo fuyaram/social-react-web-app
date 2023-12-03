@@ -1,0 +1,56 @@
+/* Home.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .tweet-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    flex: 1;
+  }
+  
+  .user-details h5 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .user-details span {
+    color: #888;
+  }
+  
+  .tweet-text {
+    margin-bottom: 10px;
+  }
+  
+  .tweet-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .post-time {
+    color: #888;
+    font-size: 14px;
+  }
+  

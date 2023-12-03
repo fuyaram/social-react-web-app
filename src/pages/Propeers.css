@@ -1,0 +1,43 @@
+/* Home.css */
+
+/* Styles for user avatar */
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Styles for verified and star icons */
+  .verified-icon, .star-icon {
+    color: #3498db; /* Blue color for the icons */
+    margin-left: 5px; /* Add some space between the icon and the user name */
+  }
+  
+  /* Styles for tweet card */
+  .tweet-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Styles for tweet text */
+  .tweet-text {
+    margin-top: 10px;
+  }
+  
+  /* Styles for tweet image */
+  .tweet-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* Styles for post time */
+  .post-time {
+    color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

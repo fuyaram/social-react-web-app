@@ -1,0 +1,118 @@
+
+.navbar45 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #333; /* Default color for icons */
+  transition: color 0.3s ease; /* Smooth transition effect for color change */
+}
+
+.icon:last-child {
+  margin-right: 0;
+}
+
+.icon:hover {
+  color: #007bff; /* Change icon color on hover */
+}
+
+
+
+/* Navbar.css */
+.navbar {
+  position: fixed;
+  margin-top: 60px;
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.logo-icon {
+  margin-right: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-item {
+  margin: 0px 15px;
+  color: #080808;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.menu-icon {
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbar-menu {
+    flex: 1;
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+  }
+
+  .navbar-item {
+    margin: 10px;
+  }
+}
