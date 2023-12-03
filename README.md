@@ -1,3 +1,9 @@
+
+
+![nowa1](https://github.com/fuyaram/social-react-web-app/assets/143484868/669a016b-411a-49c8-acc5-bef8b8e8b40a)
+
+![peer](https://github.com/fuyaram/social-react-web-app/assets/143484868/a09036f2-8827-4be8-9db3-c47302bc5b05)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
